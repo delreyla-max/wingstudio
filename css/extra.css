@@ -1,0 +1,13 @@
+/* Additions for the rebuilt static site */
+.lightbox-link { cursor: zoom-in; display: block; }
+.lightbox-link img { display: block; }
+#lb { position: fixed; inset: 0; background: rgba(255,255,255,.96); display: none;
+      align-items: center; justify-content: center; flex-direction: column; z-index: 9999; cursor: zoom-out; padding: 24px; }
+#lb.open { display: flex; }
+#lb img { max-width: 100%; max-height: calc(100vh - 110px); object-fit: contain; }
+#lb .lb-cap { margin-top: 14px; font-family: 'Nunito Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #555; text-align: center; }
+#lb .lb-close { position: absolute; top: 16px; right: 22px; font: 300 34px/1 'Nunito Sans', Arial, sans-serif; color: #333; background: none; border: 0; cursor: pointer; }
+.modules .form button.submit-button { -webkit-appearance: none; appearance: none; background: transparent; font-family: arial, sans-serif; font-weight: 700; font-size: 16px; color: #333; cursor: pointer; line-height: normal; }
+/* substitute font runs a little wider than the original Proxima Nova */
+.module-text, .module-caption, .page-header .title { letter-spacing: -0.025em; }
+.form-error { color: #b00020; font-size: 14px; margin-top: 10px; display: none; }
