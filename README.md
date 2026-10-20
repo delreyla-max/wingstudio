@@ -22,16 +22,11 @@ To preview, double-click `index.html`. The contact form only sends once it's onl
 
 - **Fonts:** Adobe's fonts only work with an Adobe subscription, so the site uses close free Google Fonts instead: Nunito Sans for headings and text, Zilla Slab for the menu. It looks very close but not identical.
 - **Photo pop-up:** clicking a photo opens it full size, like before. It's a simpler version.
-- **Contact form:** Adobe handled the old form. This one sends through Web3Forms, which is free. You need to do one setup step first (below).
+- **Contact form:** Adobe handled the old form. It's now an embedded Google Form (free).
 
-## Step 1: Make the contact form work
+## Contact form
 
-1. Go to https://web3forms.com and enter the email address where messages should go. They'll email you an **access key**.
-2. Open `contact.html` in a text editor and find this line:
-   `PASTE-YOUR-WEB3FORMS-ACCESS-KEY-HERE`
-3. Replace that text with your key and save the file.
-
-Messages go to the email you signed up with. After someone sends a message, the page shows "Thank you!", same as before.
+The Contact page shows an embedded Google Form ("Wing Studio - Contact"), owned by the gyipla@gmail.com Google account. Answers are saved in the form's **Responses** tab in Google Forms. To change the questions, edit the form there. The website updates by itself.
 
 ## Step 2: Put it online with GitHub Pages (free)
 
